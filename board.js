@@ -1,10 +1,9 @@
-"use strict";
-const boardSize = 8;
-const whiteSquare = '██';
-const blackSquare = '  ';
-for (let i = 0; i < boardSize; i++) {
-    let row = '';
-    for (let j = 0; j < boardSize; j++) {
+var boardSize = 8;
+var whiteSquare = '██';
+var blackSquare = '  ';
+for (var i = 0; i < boardSize; i++) {
+    var row = '';
+    for (var j = 0; j < boardSize; j++) {
         if ((i + j) % 2 === 0) {
             row += whiteSquare;
         }
